@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <h1 style="color: red;"> CSS Effects</h1>
+    <!-- <style>
+        h1{color: blue; font-size: 12px;}
+    </style> -->
+    <h2>Timetable</h2>
+    <table border="3">
+        <caption>Timetable</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Particular</th>
+                <th>MONDAY</th>
+                <th>TUESDAY</th>
+                <th>WEDNESDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+                <th>SATURDAY</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">10:00 TO 11:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td bgcolor="lightgrey">CS154</td>
+                <td bgcolor="lightgrey"></td>
+                <td rowspan="6">ENG209-Batch A2<br/>VP<br/>504<br/>CS158-Batch A1<br/>SP<br/>505</td>
+                <td rowspan="6">CS194-Batch A1<br/>SP<br/>303<br/>ENG208-Batch A2<br/>UP<br/>A402</td>
+                <td rowspan="6">CS194-Batch A2<br/>SP<br/>504<br/>ENG208-Batch A1<br/>UP<br/>A402</td>
+                <td ></td>
+    
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td>SS</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td>511</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">11:00 TO 12:00</td>
+                <td>Course Code</td>
+                <td>CS193</td>
+                <td></td>
+                <td></td>
+    
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td>SV</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td>511</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">12:00 TO 13:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td bgcolor="lightgrey">CS157</td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey">CS154</td>
+                <td bgcolor="lightgrey">CS154</td>
+                <td bgcolor="lightgrey">CS193</td>
+                <td bgcolor="lightgrey"></td>
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td>YC</td>
+                <td></td>
+                <td>SS</td>
+                <td>SS</td>
+                <td>SV</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td>511</td>
+                <td></td>
+                <td>505</td>
+                <td>A402</td>
+                <td>A402</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">13:00 TO 14:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td colspan="6" rowspan="3" style="font-weight: bold; border-bottom: none;" align="center" bgcolor="lightgrey">LUNCH BREAK</td>
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">14:00 TO 15:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td rowspan="6" bgcolor="lightgrey">CS194 - Batch A1<br/>SV<br/>303<br/>CS158-Batch A2<br/>SP<br/>702</td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey">ENG207</td>
+                <td rowspan="6" bgcolor="lightgrey">ENG209-Batch A1<br/>VP<br/>504<br/>CS194-Batch A2<br/>SV<br/>303</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td></td>
+                <td></td>
+                <td>UP</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td></td>
+                <td></td>
+                <td>511</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">15:00 TO 16:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey">ENG209</td>
+                <td bgcolor="lightgrey"></td>
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td></td>
+                <td></td>
+                <td>VP</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td></td>
+                <td></td>
+                <td>511</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">16:00 TO 17:00</td>
+                <td bgcolor="lightgrey">Course Code</td>
+                <td bgcolor="lightgrey">ENG207</td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey"></td>
+                <td bgcolor="lightgrey">CS157</td>
+                <td bgcolor="lightgrey"></td>
+            </tr>
+            <tr>
+                <td>Faculty Name</td>
+                <td>UP</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>YC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room No.</td>
+                <td>511</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>501</td>
+                <td></td>
+            </tr>
+        </tbody>
+        
+
+    </table>
+</body>
+</html>
